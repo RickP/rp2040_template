@@ -9,7 +9,7 @@
 - Install openocd with rp2040 and picoprobe support from https://github.com/raspberrypi/openocd.git (for using a 2nd rp2040 board as a debugger - see https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf Appendix A) 
 
 ```
-git clone git clone https://github.com/raspberrypi/openocd.git --recursive --branch picoprobe --depth=1
+git clone https://github.com/raspberrypi/openocd.git --recursive --branch picoprobe --depth=1
 cd openocd
 ./bootstrap
 ./configure --disable-presto --disable-openjtag
